@@ -1,0 +1,3 @@
+* provide set_handler to process image before montage or after montage
+    $im->before_montage(  &sub { }  );
+    $im->after_montage( &sub { }  );
